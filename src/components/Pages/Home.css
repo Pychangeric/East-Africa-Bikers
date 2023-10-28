@@ -1,0 +1,45 @@
+/* Home.css */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+.home-container {
+  position: relative;
+  background-image: url('/src/assets/images/3.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+/* Styling for the text */
+.text {
+  font-family: 'Lato', sans-serif;
+  position: absolute;
+  text-align: left;
+  color: #007acc; /* Blue text color */
+  font-size: 68px;
+  font-weight: bold;
+  top: 30%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 0 2px #fff;
+}
+
+/* Styling for the Button */
+.text-button {
+  font-family: 'Lato', sans-serif;
+  position: absolute;
+  background-color: #ffcc29; /* Yellow background for the button */
+  width: 230px;
+  height: 50px;
+  border-radius: 30px;
+  border: 1px solid #007acc; /* Blue border for the button */
+  top: 45%;
+  left: 5%;
+  font-size: 15px;
+  color: #030303; /* White text color for the button text */
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.text-button:hover {
+  background-color: #ff9900; /* Darker yellow on hover */
+}
+/* Lighting effect on hover */

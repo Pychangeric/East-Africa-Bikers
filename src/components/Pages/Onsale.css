@@ -1,0 +1,124 @@
+.onsale-container {
+    background-color: #272626;
+    height: 100vh;
+}
+
+.new-arrivals {
+    position: relative;
+    background-image: url(/src/assets/images/new.png);
+    background-size: cover;
+    background-position: center;
+    height: 30%;
+    top: 5%;
+    left: 2%;
+    width: 95%;
+    border-radius: 20px;
+}
+
+.new-arrivals h5 {
+    position: relative;
+    display: flex;
+    justify-content: baseline;
+    top: 60%;
+    left: 2.3%;
+    font-size: 35px;
+
+}
+.new-arrivals h3{
+    position: relative;
+    display: flex;
+    justify-content: baseline;
+    top: 60%;
+    left: 40px;
+    font-size: 50px;
+}
+
+.onsale {
+    position: relative;
+    height: 70%;
+    top: 15%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four columns in one row */
+    grid-gap: 20px; /* Add space between the cards */
+}
+
+.onsale > div {
+    position: relative;
+    top: 5%;
+    left: 10%;
+    height: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 79%;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;/*text alignment vertically*/
+    align-items: center;/*text alignment horizontally*/
+    color: #fff;
+  }
+
+  .onsale1 {
+    background-image: url(/src/assets/images/featured.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .onsale2 {
+    background-image: url(/src/assets/images/top.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .onsale3 {
+    background-image: url(/src/assets/images/best.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .onsale4 {
+    background-image: url(/src/assets/images/special.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .onsale5 {
+    background-image: url(/src/assets/images/customize.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .onsale6 {
+    background-image: url(/src/assets/images/Image.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .onsale7 {
+    background-image: url(/src/assets/images/riding.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .onsale8 {
+    background-image: url(/src/assets/images/maintenance.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .onsale9 {
+    background-image: url(/src/assets/images/parts.png);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .onsale10 {
+    background-image: url(/src/assets/images/cycling1.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .color {
+    background: #272626;
+  }
