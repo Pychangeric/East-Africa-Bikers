@@ -1,4 +1,8 @@
-# React + Vite
+East Africa Bikers
+
+this project is ongoing will post the full wesite soon.
+live link for the fronted desing   
+-(https://east-africa-bikers.pages.dev/)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
